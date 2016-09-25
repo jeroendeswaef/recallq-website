@@ -50,3 +50,25 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.page-heading {
+	font-size: 30px;
+}
+h3 {
+  margin-bottom: 0;
+  }
+
+  img {
+	  margin-top: 1rem;
+	  margin-bottom: 1rem;
+  }
+  
+
+.site-title {
+	unicode-bidi:bidi-override;
+	    direction:rtl;
+    }
+.site-title::first-letter {
+	color: orange;
+	font-weight: bold;
+}
