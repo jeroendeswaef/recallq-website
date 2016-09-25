@@ -72,3 +72,24 @@ h3 {
 	color: orange;
 	font-weight: bold;
 }
+
+.img-pass {
+	margin-right: 2rem;
+	margin-top: 0;
+	float: left;
+}
+ul {
+	list-style: none;
+}
+.post-content {
+	margin-bottom: 0;
+	display: table;
+}
+.post-content ul {
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	top: -2rem;
+	font-family: monospace;
+}
